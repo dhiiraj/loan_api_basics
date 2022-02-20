@@ -8,7 +8,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Project Setup
 
-# deply.sh file have all command to run project.
+## deply.sh file have all command to run project.
 
     Before running script make sure to update .env file with Database name, host, user and password.
     To run project in one go run deploy.sh (file permission chmod -R 777) from project root.
@@ -16,31 +16,32 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## manual run
 
-# Install php libraries and dependencies.
+## Install php libraries and dependencies.
 
 > composer install
+
 > php artisan key:generate
 
-# Update .env file with Database name. database host, database user and database password.
+### Update .env file with Database name. database host, database user and database password.
 
 > php artisan migrate
 
-# To run phpUnit tests
+### To run Unit tests
 
 > php artisan test
 
-# run project
+### run project
 
 > php artisan serve
 
-# Open borwser and type : localhost:8000 or 127.0.0.1:8000
+### Open borwser and type : localhost:8000 or 127.0.0.1:8000
 
 ## API endpoints with param shared postman collection.
 
 > All API will accept Bearer token (login API will return token) except registeration API
 
-## once application fully running then can test phpunit tests.
+### once application fully running then can test phpunit tests.
 
 > php artisan test
 
-## Done.
+### Done.
