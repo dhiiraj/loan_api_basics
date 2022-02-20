@@ -22,7 +22,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 > php artisan key:generate
 
-### Update .env file with Database name. database host, database user and database password.
+### Update .env file with Database name, host, user and password.
 
 > php artisan migrate
 
